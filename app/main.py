@@ -14,7 +14,8 @@ def new():
     "message":"server is okay"
   }
 @app.get("/yash")
-def new():
+def dash():
   return{
     "message":"reached"
   }
+
